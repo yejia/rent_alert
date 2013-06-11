@@ -1,0 +1,3 @@
+0-59/5 0-10,16-23 * * * cd ~/rent; python rent.py indiv >rent_indiv.log 2>&1;
+2-59/10 0-10,16-23 * * * cd ~/rent; python rent.py broker >rent_broker.log 2>&1;
+
